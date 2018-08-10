@@ -1,5 +1,9 @@
-//This program will compute factorial of a number in Java using recursion method.
-public class Factorial {
+
+/*This program will 
+ * 1. compute Factorial of a number in Java using recursion method.
+ * 2. gets nth Fibonacci number using recursion method.
+ */
+public class FactorialFibo {
 	
 	public static void main(String[] args) {
 		
@@ -10,6 +14,7 @@ public class Factorial {
 		
 	}
 	
+	//returns factorial of a number
 	static int fact(int n) {
 		
 		if(n>=1) {
@@ -20,9 +25,10 @@ public class Factorial {
 		}
 	}
 	
+	//returns nth fibonacci number
 	static int fib(int n) {
 		if(n>=3) {
-			return fib(n-1)+fib(n-2);
+			return fib(n-1)+fib(n-2); 
 		}
 		else {
 			return 1;
