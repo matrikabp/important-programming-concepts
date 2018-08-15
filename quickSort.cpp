@@ -1,4 +1,6 @@
 /* Quick Sort implementation in C++ */
+/* Source: mycodeschool youtube channel */
+
 #include <iostream>
 
 using namespace std;
